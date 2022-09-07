@@ -1,0 +1,18 @@
+import java.io.*; 
+class demo{
+    public static void main(String[] args) throws Exception
+    {
+        DataInputStream d=new DataInputStream(System.in);
+        System.out.print("Enter the alphabet:");
+        String t=d.readLine();
+        char a=t.charAt(0);
+        if((a=='a') ||( a=='e')||(a=='i')||(a=='o')||(a=='u'))
+             System.out.print("The alphabet is Vowel");
+        else if((a=='A') ||( a=='E')||(a=='I')||(a=='O')||(a=='U'))
+             System.out.print("The alphabet is Vowel");     
+        else
+           System.out.print("The alphabet is composite");
+           
+        
+    }
+}
