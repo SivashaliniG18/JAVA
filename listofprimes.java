@@ -2,7 +2,7 @@
 class demo {
     public static void main(String[] args)throws Exception
     {
-       int gcd = 1;
+       
        DataInputStream d=new DataInputStream(System.in);
        System.out.println("Enter the lowernumber:");
        int l=Integer.parseInt(d.readLine());
