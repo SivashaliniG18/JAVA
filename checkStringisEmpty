@@ -1,0 +1,19 @@
+import java.io.*;
+class demo{
+    public static void main(String[] args)throws Exception
+    {
+        System.out.print("Enter the string:");
+        DataInputStream d=new DataInputStream(System.in);
+        String s=d.readLine();
+        if(s==null)
+        {
+             System.out.println( "string is null");
+        }
+        else if(s.isEmpty())
+        {
+             System.out.println("string is: Empty");
+        }
+        else
+          System.out.println("The string contain some content");
+    }
+}
