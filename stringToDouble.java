@@ -1,0 +1,16 @@
+import java.io.*;
+class demo {
+  public static void main(String[] args)throws IOException
+  {
+
+    DataInputStream s=new DataInputStream(System.in);
+    System.out.println("Enter the value:");
+    double a =Double.parseDouble(s.readLine());
+     System.out.println("Enter the value:");
+    double b =Double.parseDouble(s.readLine());
+    
+
+    System.out.println("The double value is :"+a);    
+    System.out.println("The double value is :"+b);    
+  }
+}
